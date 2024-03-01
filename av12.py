@@ -21,6 +21,7 @@ from typing import List
 # def destCity(paths: List[List[str]]) -> str:
 #     all_cities = [city for path in paths for city in path]
 #     city_counts = {city: all_cities.count(city) for city in set(all_cities)}
+#     print(city_counts)
 #     for path in paths:
 #         destination_city = path[-1]
 #         if city_counts[destination_city] == 1:
@@ -42,3 +43,12 @@ from typing import List
 
 # result = maxProduct(nums)
 # print(result)
+
+
+#4-masala
+
+# nums = [-4,-1,0,3,10]
+
+# nums2 = [x**2 for x in nums]
+
+# print(nums2)
