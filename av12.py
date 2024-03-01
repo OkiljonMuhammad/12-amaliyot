@@ -34,11 +34,11 @@ from typing import List
 
 #3-masala
 
-def maxProduct(nums: List[int]) -> int:
-        nums.sort()
-        return (nums[-1]-1)*(nums[-2]-1)
+# def maxProduct(nums: List[int]) -> int:
+#         nums.sort()
+#         return (nums[-1]-1)*(nums[-2]-1)
     
-nums = [3,4,5,2]
+# nums = [3,4,5,2]
 
-result = maxProduct(nums)
-print(result)
+# result = maxProduct(nums)
+# print(result)
